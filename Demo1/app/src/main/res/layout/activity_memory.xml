@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.acer.demo.Activity.MemoryActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_top">
+        <Button
+            android:id="@+id/memory_back_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_button_selector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:text="备忘录" />
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="33dp"
+            android:layout_height="35dp"
+            android:layout_gravity="end"
+            android:layout_margin="8dp"
+            android:background="@drawable/add_button_selector"/>
+    </FrameLayout>
+
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/empty_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/empty_view_logo"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textColor="@color/myGrey"
+            android:text="您还未添加备忘录，赶快去添加吧"/>
+    </LinearLayout>
+
+</LinearLayout>

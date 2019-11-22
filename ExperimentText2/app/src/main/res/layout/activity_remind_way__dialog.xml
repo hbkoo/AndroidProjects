@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_remind_way__dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <RadioButton
+            android:id="@+id/Mail_Remind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="邮件提醒"
+            android:textSize="25sp"/>
+        <RadioButton
+            android:id="@+id/Message_Remind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:text="短信提醒"
+            android:textSize="25sp" />
+        <RadioButton
+            android:id="@+id/Notification_Remind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:text="通知弹窗"
+            android:textSize="25sp"/>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/remind_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="请输入手机号或者邮箱"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/OKDialog_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="确定"/>
+
+        <Button
+            android:id="@+id/exitDialog_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="取消"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

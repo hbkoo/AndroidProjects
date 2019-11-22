@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:textSize="10sp"/>
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:editable="false"
+        android:textSize="45sp"/>
+    <!--android:editable="false"-->
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <Button
+                android:id="@+id/buttonC"
+                android:layout_span="2"
+                android:textSize="45sp"
+                android:text="C"/>
+
+
+            <Button
+                android:id="@+id/buttonDEL"
+                android:textSize="45sp"
+                android:text="DEL"/>
+
+            <Button
+                android:id="@+id/buttonCHU"
+                android:textSize="45sp"
+                android:text="÷"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button7"
+                android:textSize="45sp"
+                android:text="7"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:textSize="45sp"
+                android:text="8"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:textSize="45sp"
+                android:text="9"/>
+
+            <Button
+                android:id="@+id/buttonCHENG"
+                android:textSize="45sp"
+                android:text="×"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button4"
+                android:textSize="45sp"
+                android:text="4"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:textSize="45sp"
+                android:text="5"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:textSize="45sp"
+                android:text="6"/>
+
+            <Button
+                android:id="@+id/buttonJIAN"
+                android:textSize="45sp"
+                android:text="－"/>
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button1"
+                android:textSize="45sp"
+                android:text="1"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:textSize="45sp"
+                android:text="2"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:textSize="45sp"
+                android:text="3"/>
+
+            <Button
+                android:id="@+id/buttonJIA"
+                android:textSize="45sp"
+                android:text="＋"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_span="2"
+                android:textSize="45sp"
+                android:text="0"/>
+
+            <Button
+                android:id="@+id/buttonD"
+                android:textSize="45sp"
+                android:text="."/>
+
+            <Button
+                android:id="@+id/buttonDENG"
+                android:textSize="45sp"
+                android:text="="/>
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+
+</LinearLayout>

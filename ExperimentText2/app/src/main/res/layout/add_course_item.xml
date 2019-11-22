@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <TextView
+        android:id="@+id/course_order"
+        android:layout_width="12dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/Mon_tv_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:background="@drawable/editsharp"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/Tue_tv_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:textSize="11sp"
+        android:background="@drawable/editsharp" />
+
+    <TextView
+        android:id="@+id/Wes_tv_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:textSize="11sp"
+        android:background="@drawable/editsharp" />
+
+    <TextView
+        android:id="@+id/Thu_tv_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:textSize="11sp"
+        android:background="@drawable/editsharp" />
+
+    <TextView
+        android:id="@+id/Fri_tv_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:textSize="11sp"
+        android:background="@drawable/editsharp" />
+
+    <TextView
+        android:id="@+id/Sat_tv_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:textSize="11sp"
+        android:background="@drawable/editsharp" />
+
+    <TextView
+        android:id="@+id/Sun_tv_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:textSize="11sp"
+        android:background="@drawable/editsharp" />
+
+</LinearLayout>

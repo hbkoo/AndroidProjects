@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.acer.experimenttext2">
+
+    <!-- android:theme="@style/StartStyle" -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.StartActivity"
+            android:theme="@style/StartStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activity.MainActivity" />
+
+        <activity
+            android:name=".Activity.HomePageActivity"
+            android:label="首页"
+            android:theme="@style/ThemeHome" />
+        <activity
+            android:name=".Activity.RemindWay_DialogActivity"
+            android:label="消息提示"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".Activity.CourseActivity"
+            android:label="课程实验安排"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".Activity.MaterialFixActivity"
+            android:label="器材报修"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".Activity.StuLeaveActivity"
+            android:label="学生请假"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity.StuLeaveDialogActivity"
+            android:label="请假信息"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".Activity.CourseCheckActivity"
+            android:label="课程修改"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+
+        <service
+            android:name=".Service.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Activity.AddCourseDialogActivity"
+            android:label="添加课程"
+            android:theme="@style/Theme.AppCompat.Dialog"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--&lt;!&ndash;自定义Dialog主题&ndash;&gt;-->
+    <!--<style name="ThemeOverlay.AppCompat.Dialog.Alert.self" -->
+        <!--parent="@style/ThemeOverlay.AppCompat.Dialog.Alert">-->
+        <!--<item name="android:colorAccent">#3F51B5</item>-->
+        <!---->
+    <!--</style>-->
+
+
+    <style name="StartStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/start_window</item>
+    </style>
+
+    <style name="ThemeHome" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

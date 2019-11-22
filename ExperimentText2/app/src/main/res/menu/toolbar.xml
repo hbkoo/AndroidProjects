@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_remindWay"
+        android:title="提醒方式"/>
+    <item
+        android:id="@+id/nav_changePassword"
+        android:title="修改密码"/>
+    <item
+        android:id="@+id/nav_exist"
+        android:title="退出登录"/>
+
+</menu>

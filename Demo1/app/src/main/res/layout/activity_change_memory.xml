@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_top"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/memo_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:text="取 消"
+            android:textColor="@drawable/textview_selector"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/memo_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="修 改"
+            android:textColor="@drawable/textview_selector"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/notepad_edit_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/memo_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/myGrey"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/memo_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:gravity="left|top"
+            android:hint="添加备忘录"
+            android:background="@drawable/my_edit_bg"
+            android:inputType="textMultiLine"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

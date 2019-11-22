@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="?attr/colorPrimary">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/nav_header_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/start"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/nav_header_academy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/nav_header_image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:text="计算机科学与技术学院"
+        android:textColor="#FFF"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/nav_header_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@+id/nav_header_image"
+        android:layout_marginLeft="20dp"
+        android:text="韩冰凯"
+        android:textColor="#FFF"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/nav_header_time"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="第2周"
+        android:textColor="#FFF"
+        android:textSize="17sp"
+        android:background="@color/colorPrimaryDark"/>
+
+</RelativeLayout>

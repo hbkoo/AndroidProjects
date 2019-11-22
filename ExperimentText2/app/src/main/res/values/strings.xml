@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">实验管理</string>
+    <string name="action_sign_in_short">Sign in</string>
+</resources>
