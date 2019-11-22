@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.acer.litepaltest">
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".addActivity"
+            android:theme="@style/AppWelcome" />
+        <activity
+            android:name=".changeActivity"
+            android:theme="@style/AppWelcome" />
+        <activity
+            android:name=".deleteActivity"
+            android:theme="@style/AppWelcome" />
+        <activity
+            android:name=".queryActivity"
+            android:theme="@style/AppWelcome" />
+
+        <provider
+            android:name=".MyContentProvider"
+            android:authorities="com.example.acer.litepaltest.provider"
+            android:enabled="true"
+            android:exported="true"></provider>
+
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
